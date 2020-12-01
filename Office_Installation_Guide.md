@@ -12,7 +12,7 @@
 `sudo apt install winetricks`
 
 # install some wine conponents
-`winetricks rich2 usp10 msxml6 richtx32 msftedit vb6run`
+`winetricks riched20 usp10 msxml6 richtx32 msftedit vb6run`
 
 # Download [office 2013 retail](ed2k://|file|en_office_professional_plus_2013_x86_dvd_1123673.iso|699004928|BB00273C2DA5FF775165D748DBFDA37C|/)
 mount the iso, then run setup.exe with wine
