@@ -16,7 +16,7 @@
 
 ## Optional: some conponents may not be avaliable depanding on your network environment, Download them via proxy first, and copy to winetricks cache dir.
 
-# Config wine regedit
+# Optional: Config wine regedit
 Download this [.reg](https://gist.github.com/swordfeng/c3fd6b6fcf6dc7d7fa8a) file.
 Open regedit with the command:
 `winetricks regedit`
