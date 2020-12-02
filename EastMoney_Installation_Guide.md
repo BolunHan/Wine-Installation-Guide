@@ -12,7 +12,7 @@
 `sudo apt install winetricks`
 
 # install some wine conponents
-`winetricks corefonts gdiplus riched20 riched30 wenquanyi ie8 vcrun2008 d3dx9 ole32`
+`winetricks corefonts cjkfonts gdiplus riched20 riched30 wenquanyi ie8 vcrun2008 d3dx9 ole32`
 
 ## Optional: some conponents may not be avaliable depanding on your network environment, Download them via proxy first, and copy to winetricks cache dir.
 
