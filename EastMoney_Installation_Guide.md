@@ -2,7 +2,7 @@
 `sudo apt install wine`
 
 # setup wine env, skip this if you already have one
-`export WINEARCH=win32`
+`export WINEARCH=win32`<br>
 `export WINEPREFIX=~/.wine32`
 
 # setup and config wine
