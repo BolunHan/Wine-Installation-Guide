@@ -1,3 +1,6 @@
+# Add architecture
+`sudo dpkg --add-architecture i386`
+
 # Install wine from APT
 `sudo apt install wine winbind`
 
