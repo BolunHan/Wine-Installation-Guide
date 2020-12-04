@@ -1,5 +1,5 @@
 # Install wine from APT
-`sudo apt install wine`
+`sudo apt install wine winbind`
 
 # setup wine env, skip this if you already have one
 `export WINEARCH=win32`<br>
