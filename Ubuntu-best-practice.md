@@ -33,3 +33,4 @@ sudo apt install plasma-desktop
 # Install sogou input
 - install fcitx
 - download sogoupinyin for 20.04 and run with `dpkg -i sogoupinyin`
+- install steam with `sudo apt install steam-installer`
