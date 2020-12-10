@@ -27,8 +27,9 @@ sudo apt install plasma-desktop
 
 # Remove broken packages
 - remove Gnome driver utilities (broken)`sudo apt purge software-properties-gtk`
-- Optional remove Gnome snap shop (redundent) `sudo snap remove snap-store`
-- Optional restore os-release file with `sudo cp /etc/os-release.bkp /etc/os-release`
+- Optional: reinstall emoji package if it's not working `sudo apt reinstall fonts-noto-color-emoji`
+- Optional: remove Gnome snap shop (redundent) `sudo snap remove snap-store`
+- Optional: restore os-release file with `sudo cp /etc/os-release.bkp /etc/os-release`
 
 # Install sogou input
 - install fcitx
