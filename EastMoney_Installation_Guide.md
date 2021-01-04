@@ -1,4 +1,4 @@
-# Add architecture
+# Optional: Add architecture
 `sudo dpkg --add-architecture i386`
 
 # Install wine from APT
