@@ -42,3 +42,6 @@ sudo apt install plasma-desktop
 - `echo "deb [arch=amd64] https://qv2ray.net/debian/ stable main" | sudo tee /etc/apt/sources.list.d/qv2ray.list`
 - `sudo apt-get update`
 - `sudo apt-get install qv2ray`
+
+# Use local time zone instead of motherboard
+- `timedatectl set-local-rtc 1`
