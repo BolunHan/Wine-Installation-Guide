@@ -35,3 +35,10 @@ sudo apt install plasma-desktop
 - install fcitx
 - download sogoupinyin for 20.04 and run with `dpkg -i sogoupinyin`
 - install steam with `sudo apt install steam-installer`
+
+# Install Qv@ray GUI client
+- `sudo apt-get install gnupg ca-certificates curl`
+- `curl -sSL https://qv2ray.net/debian/pubkey.gpg | sudo apt-key add -`
+- `echo "deb [arch=amd64] https://qv2ray.net/debian/ stable main" | sudo tee /etc/apt/sources.list.d/qv2ray.list`
+- `sudo apt-get update`
+- `sudo apt-get install qv2ray`
