@@ -45,3 +45,7 @@ sudo apt install plasma-desktop
 
 # Use local time zone instead of motherboard
 - `timedatectl set-local-rtc 1`
+
+# adjust monitor relative position
+- `xrandr` to check monitor name and current position
+- `xrandr --output eDPI1 --pos <x>x<y>`to amend position
