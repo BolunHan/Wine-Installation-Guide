@@ -49,11 +49,4 @@ sudo apt install plasma-desktop
 # adjust monitor relative position
 - `xrandr` to check monitor name and current position
 - `xrandr --output eDPI1 --pos <x>x<y>`to amend position
-- e.g.: 
-
-```
-xrandr --output HDMI-2 --mode 1920x1080 --pos 0x1080 --rotate normal \
---output HDMI-0 --mode 1920x1080 --pos 1920x1080 --rotate normal \
---output DVI-D-0 --mode 1920x1080 --pos 0x0 --rotate normal \
---output DP-1 --mode 1920x1080 --pos 1920x0 --rotate normal
-```
+- use arandr for gui support with `sudo apt install arandr`
