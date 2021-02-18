@@ -50,3 +50,6 @@ sudo apt install plasma-desktop
 - `xrandr` to check monitor name and current position
 - `xrandr --output eDPI1 --pos <x>x<y>`to amend position
 - use arandr for gui support with `sudo apt install arandr`
+
+# install deepin store
+- `https://github.com/dekzi/dde-store`
