@@ -53,6 +53,8 @@ sudo apt install plasma-desktop
 
 # Optional: install deepin dde
 - `https://launchpad.net/~ubuntudde-dev/+archive/ubuntu/stable`
+- `sudo add-apt-repository ppa:ubuntudde-dev/stable`
+- `sudo apt-get install ubuntudde-dde ubuntudde-dde-extra`
 
 # install deepin store
-- `https://github.com/dekzi/dde-store`
+- `https://github.com/dekzi/dde-store` and build from source
