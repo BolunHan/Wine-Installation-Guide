@@ -51,5 +51,8 @@ sudo apt install plasma-desktop
 - `xrandr --output eDPI1 --pos <x>x<y>`to amend position
 - use arandr for gui support with `sudo apt install arandr`
 
+# Optional: install deepin dde
+- `https://launchpad.net/~ubuntudde-dev/+archive/ubuntu/stable`
+
 # install deepin store
 - `https://github.com/dekzi/dde-store`
