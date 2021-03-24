@@ -14,6 +14,9 @@
 # Install WineTricks
 `sudo apt install winetricks`
 
+# Optional: if the wine prefix is installed by PoL
+`env WINE=/home/bolun/.PlayOnLinux/wine/linux-x86/5.0/bin/wine WINEPREFIX=/home/bolun/.PlayOnLinux/wineprefix/EastMoney winetricks corefonts cjkfonts gdiplus riched20 riched30 wenquanyi ie8 vcrun2008 d3dx9 ole32`
+
 # install some wine conponents
 `winetricks corefonts cjkfonts gdiplus riched20 riched30 wenquanyi ie8 vcrun2008 d3dx9 ole32`
 
