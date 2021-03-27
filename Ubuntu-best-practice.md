@@ -36,6 +36,9 @@ sudo apt install plasma-desktop
 - download sogoupinyin for 20.04 and run with `dpkg -i sogoupinyin`
 - install steam with `sudo apt install steam-installer`
 
+# store git credentialas
+- `git config --global credential.helper store`
+
 # Install Qv@ray GUI client
 - `sudo apt-get install gnupg ca-certificates curl`
 - `curl -sSL https://qv2ray.net/debian/pubkey.gpg | sudo apt-key add -`
