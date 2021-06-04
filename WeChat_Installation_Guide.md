@@ -1,11 +1,46 @@
-# setup env same as [EastMoney](https://github.com/BolunHan/Wine--/blob/main/EastMoney_Installation_Guide.md)
-and install WeChat.exe
-can be installed into same wineprefix as EastMoney, but only need riched20 wenquanyi override
+# Reuse [EastMoney](https://github.com/BolunHan/Wine--/blob/main/EastMoney_Installation_Guide.md) prefix
+just run WeChatSetup.exe and config the shortcuts
 
-## variant
-add following lines to env
+---
+
+# Fresh setup
+## Step 0: install PlayOnLinux and setup fresh wine32 5.0 prefix
+
+Install wine5.0 x86 using PoL. The env should be placed at default location `~/.PlayOnLinux/wine/linux-x86/5.0/bin/wine`
+
+This example names the prefix as `WeChat` and places it at default location `~/.PlayOnLinux/wineprefix/WeChat`
+
+
+## Step 1: Override riched20 wenquanyi with winetricks
+
+Install overrides with `env WINE=~/.PlayOnLinux/wine/linux-x86/5.0/bin/wine WINEPREFIX=~/.PlayOnLinux/wineprefix/WeChat winetricks riched20 wenquanyi`
+
+
+## Step 2: Download and Install WeChat
+
+Download WeChat setup with `wget https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe WeChatSetup.exe`
+
+Install WeChat with `env WINEPREFIX=~/.PlayOnLinux/wineprefix/WeChat ~/.PlayOnLinux/wine/linux-x86/5.0/bin/wine WeChatSetup.exe`
+
+
+## Step 3: Config ShortCuts
+
+If setup runs smoothly, a shortcut should be created at `~/.local/share/applications/wine/Programs/WeChat/WeChat.desktop`
+
+Edit the .desktop file and add following environment variables at `Exec`
 ```
-export GTK_IM_MODULE="fcitx"
-export QT_IM_MODULE="fcitx" 
-export XMODIFIERS="@im=fcitx"
+LANG="zh_CN.UTF-8"
+WINEPREFIX="~/.PlayOnLinux/wineprefix/Wine32"
+WINE="~/.PlayOnLinux/wine/linux-x86/5.0/bin/wine"
+```
+
+
+## Step 4: config input method
+
+If using fcitx as input method, add following environment variables
+
+```
+GTK_IM_MODULE="fcitx"
+QT_IM_MODULE="fcitx" 
+XMODIFIERS="@im=fcitx"
 ```
