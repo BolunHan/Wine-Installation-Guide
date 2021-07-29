@@ -45,4 +45,4 @@ XMODIFIERS="@im=fcitx"
 
 ## Step 5: override font with M$yh
 
-Download and unzip [Uploading fake_simsun.zip…](fake simsun) font file and place it in `$WINEPREFIX/drive_c/windows/Fonts/`
+Download and unzip [fake simsun](https://github.com/BolunHan/Wine-Installation-Guide/raw/main/fake_simsun.zip) font file and place it in `$WINEPREFIX/drive_c/windows/Fonts/`
