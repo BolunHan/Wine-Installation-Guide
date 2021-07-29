@@ -42,3 +42,7 @@ GTK_IM_MODULE="fcitx"
 QT_IM_MODULE="fcitx"
 XMODIFIERS="@im=fcitx"
 ```
+
+## Step 5: override font with M$yh
+
+Download and unzip [Uploading fake_simsun.zip…](Fake Simsun) font file and place it in `$WINEPREFIX/drive_c/windows/Fonts/`
