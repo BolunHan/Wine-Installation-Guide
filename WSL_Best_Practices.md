@@ -39,3 +39,7 @@ Set default shell to bash.exe will start and open a wsl session automatically
 ```PowerShell
 New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\WINDOWS\System32\bash.exe" -PropertyType String -Force
 ```
+
+# apt with proxy
+
+`sudo apt -o Acquire::http::proxy="http://192.168.1.25:7780/" update`
